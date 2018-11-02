@@ -5,11 +5,30 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-
+	text-align: justify;
 }
 
 div{
 	border: 1px	solid black;
 	margin: auto;
 	background-color: transparent;
+	text-align: justify;
+	
+}
+
+div{
+	background-color: transparent;
+	width: 950px;
+	border: 50px white;
+	padding: 25px;
+	margin: auto;
+
+}
+
+p.sansserif{
+	font-family:Arial;
+}
+
+p.sanseri{
+	font-family: Germanica;
 }
