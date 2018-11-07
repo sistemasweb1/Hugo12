@@ -7,6 +7,11 @@ function myFunction() {
 }
 
 
+var disqus_config = function () {
+this.page.url = 'https://buenasabiduria.disqus.com/embed.js' ;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
 (function() {
 var d = document, s = d.createElement('script');
 s.src = 'https://buenasabiduria.disqus.com/embed.js';
