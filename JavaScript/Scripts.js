@@ -5,3 +5,12 @@ function myFunction() {
 
     document.getElementById("demo").innerHTML = esp + "<br>" + esp2;
 }
+
+
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://buenasabiduria.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+
