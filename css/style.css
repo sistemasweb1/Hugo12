@@ -3,15 +3,18 @@
 	
 
 body{
-	background-image: url("420.jpg") ;
+	background:url("111.jpg"), #000 ;
+	background-size:cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	text-align: justify;
+	
 }
 body{
 	font-family: 'Germania One', cursive;
 }
+
 
 div{
 	border: 1px	solid black;
