@@ -1,7 +1,7 @@
 /* particlesJS('dom-id', params);
 /* @dom-id : set the html tag id [string, optional, default value : particles-js]
 /* @params: set the params [object, optional, default values : check particles.js] */
- 
+
 /* config dom id (optional) + config particles params */
 particlesJS('particles-js', {
   particles: {
@@ -42,7 +42,7 @@ particlesJS('particles-js', {
     mouse: {
       distance: 300
     },
-    detect_on: 'window', // "canvas" or "window"
+    detect_on: 'canvas', // "canvas" or "window"
     mode: 'grab', // "grab" of false
     line_linked: {
       opacity: .5
