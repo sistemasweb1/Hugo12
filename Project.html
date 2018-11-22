@@ -3,28 +3,7 @@
 <head>
 <title> La Orden </title>
 <meta charset="UTF-8">
-<style>
-	body{
-	background-color:;
-}
-
-h1 {	
-	color: white;
-}
-
-p {color: red;
-
-}
-</style> 
-<style>
-		table, th, td{
-			border: 1px solid black;
-			border-collapse: collapse;
-		}
-		th,td{
-			padding: 5px;
-			text-align: center;
-		}
+		
 </style>
 
 	<link 
@@ -42,41 +21,43 @@ p {color: red;
 <body>
 
 
-	
-
-<style>
-
-#myheader{
-
-	background-color: red;
-	color: black;
-	padding: 40px;
-	text-align: center; 
-}
-</style>
-
-<style>
-
-#myheader2{
-
-	background-color: black;
-	color: white;
-	padding: 30px;
-	text-align: center; 
-}
-</style>
-
 <h1 id="myheader"> Bienvenido a la orden </h1>
 <h2 style="text-align: center;color: white;">Tirodal</h2>
 <h3 style="text-align: center;"></h3>
 <p id="myheader2">Sabiduria Hiperborea</p>
 
-<div id="particles-js"></div>
-
-
 <center>
 <img src="images/IMG_1466.jpg" alt="https://www.facebook.com/hugolifes/" width="400" height="300" alt="sol">	
 </center>
+
+<div id="sidebar" class="sidebar" style="width: 300px;">
+	<a class="boton-cerrar" href="#"  onclick="ocultar()"> x </a>
+	<ul class="menu">
+		<li src="Project.html"> Home </li>
+		<li href="pagina4.html"> Historia </li>
+		<li href="pagina2.html"> Emociones </li>
+		<li href="Pagina5.html"> Iniciacion</li>
+		<li href="pagina3.html"> Libros</li>
+		<li href="pagina6.html"> Sociedades Secretas </li>
+	</ul>
+</div>
+
+
+<div id="contenido" style="margin-left: 300px;">
+
+	<center>
+	<h1> Menu </h1>
+	</center>
+
+	<center>
+	<a id="abrir" class="abrir-cerrar" class="button button4 href="javascript:void(0)" onclick="mostrar()" style="display: none;"> Open menu</a>
+	</center>
+
+	<center>
+	<a id="cerrar" class="abrir-cerrar" class="button button4" href="#" onclick="ocultar()" style="display: inline;"> Close menu</a>
+	</center>
+
+</div>
 
 
 <center>
@@ -130,8 +111,6 @@ p {color: red;
 <div id="disqus_thread"></div>
 <script id="dsq-count-scr" src="//buenasabiduria.disqus.com/count.js" async></script>
 <a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Foto de fondo creado por freepik - www.freepik.es</a>
-<script src="Particulas.js"></script>
-<script src="Particles.js"></script>	
 
 </body>
 </html> 
